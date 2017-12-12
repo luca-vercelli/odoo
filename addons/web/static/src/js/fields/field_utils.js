@@ -97,7 +97,8 @@ function formatDate(value, field, options) {
             value = value.clone().add(session.getTZOffset(value), 'minutes');
         }
     }
-    var date_format = time.getLangDateFormat();
+    var l10n = core._t.database.parameters;
+    var date_format = time.strftime_to_moment_format(l10n.date_format);
     return value.format(date_format);
 }
 
@@ -121,7 +122,11 @@ function formatDateTime(value, field, options) {
     if (!options || !('timezone' in options) || options.timezone) {
         value = value.clone().add(session.getTZOffset(value), 'minutes');
     }
-    return value.format(time.getLangDatetimeFormat());
+    var l10n = core._t.database.parameters;
+    var date_format = time.strftime_to_moment_format(l10n.date_format);
+    var time_format = time.strftime_to_moment_format(l10n.time_format);
+    var datetime_format = date_format + ' ' + time_format;
+    return value.format(datetime_format);
 }
 
 /**
@@ -344,7 +349,7 @@ function parseDate(value, field, options) {
     if (!value) {
         return false;
     }
-    var datePattern = time.getLangDateFormat();
+    var datePattern = time.strftime_to_moment_format(core._t.database.parameters.date_format);
     var datePatternWoZero = datePattern.replace('MM','M').replace('DD','D');
     var date;
     if (options && options.isUTC) {
@@ -383,8 +388,8 @@ function parseDateTime(value, field, options) {
     if (!value) {
         return false;
     }
-    var datePattern = time.getLangDateFormat(),
-        timePattern = time.getLangTimeFormat();
+    var datePattern = time.strftime_to_moment_format(core._t.database.parameters.date_format),
+        timePattern = time.strftime_to_moment_format(core._t.database.parameters.time_format);
     var datePatternWoZero = datePattern.replace('MM','M').replace('DD','D'),
         timePatternWoZero = timePattern.replace('HH','H').replace('mm','m').replace('ss','s');
     var pattern1 = datePattern + ' ' + timePattern;

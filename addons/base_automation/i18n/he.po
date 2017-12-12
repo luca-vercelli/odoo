@@ -52,7 +52,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_active
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test_active
 msgid "Active"
-msgstr "פעיל"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_channel_ids
@@ -161,7 +161,7 @@ msgstr ""
 #. module: base_automation
 #: selection:base.automation.lead.test,state:0
 msgid "Cancelled"
-msgstr "בוטלה"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation_lead_test_customer
@@ -198,7 +198,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_crud_model_id
 msgid "Create/Write Target Model"
-msgstr "צור/כתוב מודל יעד"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_create_uid
@@ -262,7 +262,7 @@ msgstr ""
 #. module: base_automation
 #: selection:base.automation,trg_date_range_type:0
 msgid "Hours"
-msgstr "שעות"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_id
@@ -293,7 +293,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test_customer
 msgid "Is a Customer"
-msgstr "סמן כלקוח"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test_date_action_last
@@ -329,12 +329,12 @@ msgstr "תאריך עדכון אחרון"
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_line_test_lead_id
 msgid "Lead"
-msgstr "ליד (Lead)"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test_line_ids
 msgid "Line"
-msgstr "שורה"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_link_field_id
@@ -344,18 +344,18 @@ msgstr ""
 #. module: base_automation
 #: selection:base.automation,trg_date_range_type:0
 msgid "Minutes"
-msgstr "דקות"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_model_id
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_model_name
 msgid "Model"
-msgstr "מודל"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_crud_model_name
 msgid "Model Description"
-msgstr "תאור מודל"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation_crud_model_id
@@ -372,7 +372,7 @@ msgstr ""
 #. module: base_automation
 #: selection:base.automation,trg_date_range_type:0
 msgid "Months"
-msgstr "חודשים"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_line_test_name
@@ -429,7 +429,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test_priority
 msgid "Priority"
-msgstr "עדיפות"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation_link_field_id
@@ -441,7 +441,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_code
 msgid "Python Code"
-msgstr "קוד Python"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.ui.view,arch_db:base_automation.view_base_automation_form
@@ -456,7 +456,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test_user_id
 msgid "Responsible"
-msgstr "אחראי"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_sequence
@@ -530,7 +530,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_line_test_user_id
 msgid "User"
-msgstr "משתמש"
+msgstr ""
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_fields_lines

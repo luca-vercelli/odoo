@@ -11421,24 +11421,24 @@ msgstr "Bahasa"
 #. module: base
 #: model:ir.model,name:base.model_base_language_import
 msgid "Language Import"
-msgstr "Impor Bahasa"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_import_name
 msgid "Language Name"
-msgstr "Nama Bahasa"
+msgstr ""
 
 #. module: base
 #: code:addons/base/module/wizard/base_language_install.py:39
 #, python-format
 msgid "Language Pack"
-msgstr "Paket Bahasa"
+msgstr ""
 
 #. module: base
 #: code:addons/base/res/res_lang.py:218
 #, python-format
 msgid "Language code cannot be modified."
-msgstr "Kode bahasa tidak bisa dimodifikasi."
+msgstr ""
 
 #. module: base
 #: sql_constraint:ir.translation:0
@@ -11460,7 +11460,7 @@ msgstr "Bahasa"
 #. module: base
 #: model:res.country,name:base.la
 msgid "Laos"
-msgstr "Laos"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_ui_view_write_date
@@ -11713,18 +11713,18 @@ msgstr "Versi Terkini"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users_login_date
 msgid "Latest connection"
-msgstr "Koneksi terakhir"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.lv
 msgid "Latvia"
-msgstr "Latvia"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.config_wizard_step_view_form
 #: model:ir.ui.view,arch_db:base.ir_actions_todo_tree
 msgid "Launch"
-msgstr "Luncurkan"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.config_wizard_step_view_form
@@ -11846,32 +11846,32 @@ msgstr "Tingkatan"
 #. module: base
 #: model:res.country,name:base.lr
 msgid "Liberia"
-msgstr "Liberia"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ly
 msgid "Libya"
-msgstr "Libya"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module_license
 msgid "License"
-msgstr "Lisensi"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.li
 msgid "Liechtenstein"
-msgstr "Liechtenstein"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_window_limit
 msgid "Limit"
-msgstr "Batas"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_logging_line
 msgid "Line"
-msgstr "Garis"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_payment
@@ -11905,7 +11905,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_link_tracker
 msgid "Link Tracker"
-msgstr "Penjejak Tautan"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_sale
@@ -11915,23 +11915,23 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_project_forecast_sale
 msgid "Link module between project_forecast and sale(_timesheet)"
-msgstr "Modul penghubung antara project_forecast dan sale(_timesheet)"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_server_link_field_id
 #: model:ir.model.fields,field_description:base.field_ir_cron_link_field_id
 msgid "Link using field"
-msgstr "Hubungkan menggunakan field"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields_modules
 msgid "List of modules in which the field is defined"
-msgstr "Daftar modul-modul yang field-nya terdefinisi"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_modules
 msgid "List of modules in which the object is defined or inherited"
-msgstr "Daftar modul-modul yang objeknya terdefinisi atau terwariskan"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields_selection
@@ -11944,7 +11944,7 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.lt
 msgid "Lithuania"
-msgstr "Lithuania"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_im_livechat
@@ -12034,17 +12034,17 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.lu
 msgid "Luxembourg"
-msgstr "Luxembourg"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_lu
 msgid "Luxembourg - Accounting"
-msgstr "Luxembourg - Akuntansi"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_lu_reports
 msgid "Luxembourg - Accounting Reports"
-msgstr "Luxembourg - Laporan Akuntansi"
+msgstr ""
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_M
@@ -12094,8 +12094,6 @@ msgid ""
 "Mail delivery failed via SMTP server '%s'.\n"
 "%s: %s"
 msgstr ""
-"Pengiriman pesan gagal melalui server SMTP '%s'.\n"
-"%s: %s"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_mail_channel
@@ -12126,17 +12124,17 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.mw
 msgid "Malawi"
-msgstr "Malawi"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.my
 msgid "Malaysia"
-msgstr "Malaysia"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.mv
 msgid "Maldives"
-msgstr "Maladewa"
+msgstr ""
 
 #. module: base
 #: model:res.country,name:base.ml
@@ -12206,21 +12204,16 @@ msgid ""
 "assigned to specific groups in order to make them accessible to some users "
 "within the system."
 msgstr ""
-"Mengelola dan menyesuaikan item-item yang tersedia dan ditampilkan di menu "
-"sistem Odoo Anda. Anda dapat menghapus sebuah item dengan mengeklik kotak "
-"yang ada di awal tiap garis kemudian menghapusnya melalui tombol yang "
-"muncul. Item-item dapat diperuntukkan kepada kelompok-kelompok spesifik agar"
-" mereka tampak oleh beberapa pengguna sistem saja."
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_res_bank_form
 msgid "Manage bank records you want to be used in the system."
-msgstr "Mengelola catatan bank yang ingin Anda gunakan dalam sistem."
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_attendance
 msgid "Manage employee attendances"
-msgstr "Mengelola kehadiran karyawan"
+msgstr ""
 
 #. module: base
 #: model:ir.actions.act_window,help:base.action_partner_category_form
@@ -12274,13 +12267,13 @@ msgstr ""
 #. module: base
 #: selection:ir.property,type:0
 msgid "Many2One"
-msgstr "Many2One"
+msgstr ""
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:622
 #, python-format
 msgid "Many2one %s on model %s does not exist!"
-msgstr "%s Many2one pada model %s tidak ada!"
+msgstr ""
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_model_relation
@@ -12288,7 +12281,7 @@ msgstr "%s Many2one pada model %s tidak ada!"
 #: model:ir.ui.view,arch_db:base.view_model_relation_form
 #: model:ir.ui.view,arch_db:base.view_model_relation_list
 msgid "ManyToMany Relations"
-msgstr "Relasi ManyToMany"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product_margin
@@ -19576,7 +19569,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:base.ir_action_window
 #: model:ir.ui.menu,name:base.menu_ir_action_window
 msgid "Window Actions"
-msgstr "Aksi Jendela"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_change_password_user_wizard_id
@@ -19618,12 +19611,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_model_access_perm_write
 #: model:ir.ui.view,arch_db:base.ir_access_view_search
 msgid "Write Access"
-msgstr "Akses Menulis"
+msgstr ""
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_rule_search
 msgid "Write Access Right"
-msgstr "Hak Akses Menulis"
+msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_act_server_code
@@ -19708,7 +19701,7 @@ msgstr "Anda tidak boleh membuat hirarki rekanan yang rekursif."
 #: code:addons/base/ir/ir_ui_view.py:343
 #, python-format
 msgid "You cannot create recursive inherited views."
-msgstr "Anda tidak bisa membuat tampilan warisan rekursif."
+msgstr ""
 
 #. module: base
 #: code:addons/base/res/res_users.py:336

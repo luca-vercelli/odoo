@@ -8,7 +8,6 @@
 # İlknur Püskül <ilknurpuskull@gmail.com>, 2017
 # Levent Karakaş <levent@mektup.at>, 2017
 # Güven YILMAZ <guvenyilmaz@outlook.com.tr>, 2017
-# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2017
 # Ayhan KIZILTAN <akiziltan76@hotmail.com>, 2017
 # Gökhan Erdoğdu <gokhan.erdogdu@mechsoft.com.tr>, 2017
 # Nurettin Emre Ozbakir <emre.ozbakir@gamareklam.com>, 2017
@@ -17,10 +16,10 @@
 # Hakan ıı <hkn1979@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-11-30 13:11+0000\n"
+"POT-Creation-Date: 2017-10-02 11:26+0000\n"
+"PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Hakan ıı <hkn1979@gmail.com>, 2017\n"
 "Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +35,7 @@ msgid " (copy)"
 msgstr " (kopya)"
 
 #. module: account_asset
-#: code:addons/account_asset/models/account_asset.py:540
+#: code:addons/account_asset/models/account_asset.py:538
 #, python-format
 msgid " (grouped)"
 msgstr " (gruplanmış)"
@@ -97,7 +96,7 @@ msgstr ""
 
 #. module: account_asset
 #. openerp-web
-#: code:addons/account_asset/static/src/js/account_asset.js:52
+#: code:addons/account_asset/static/src/js/account_asset.js:41
 #, python-format
 msgid "Accounting entries waiting for manual verification"
 msgstr "El ile doğrulanmayı bekleyen hesap kayıtları"
@@ -114,7 +113,7 @@ msgid "Additional Options"
 msgstr "Ek Seçenekler"
 
 #. module: account_asset
-#: code:addons/account_asset/models/account_asset.py:597
+#: code:addons/account_asset/models/account_asset.py:595
 #, python-format
 msgid "Amount"
 msgstr "Tutar"
@@ -420,7 +419,7 @@ msgid "Cumulative Depreciation"
 msgstr "Kümülatif Amortisman"
 
 #. module: account_asset
-#: code:addons/account_asset/models/account_asset.py:597
+#: code:addons/account_asset/models/account_asset.py:595
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_currency_id
 #, python-format
 msgid "Currency"
@@ -550,7 +549,7 @@ msgid "Depreciation board modified"
 msgstr "Amortisman tablosu düzenlendi"
 
 #. module: account_asset
-#: code:addons/account_asset/models/account_asset.py:600
+#: code:addons/account_asset/models/account_asset.py:598
 #, python-format
 msgid "Depreciation line posted."
 msgstr "Amortisman kalemi onaylandı."
@@ -578,7 +577,7 @@ msgid "Disposal Moves"
 msgstr "İmha Hareketleri"
 
 #. module: account_asset
-#: code:addons/account_asset/models/account_asset.py:579
+#: code:addons/account_asset/models/account_asset.py:577
 #, python-format
 msgid "Document closed."
 msgstr "Belge kapandı."
@@ -711,7 +710,7 @@ msgstr "Öğeler"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_category_journal_id
 msgid "Journal"
-msgstr "Yevmiye"
+msgstr "Journal"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:438
@@ -821,7 +820,7 @@ msgid "One Entry Every"
 msgstr "Her Bir Giriş"
 
 #. module: account_asset
-#: code:addons/account_asset/models/account_asset.py:599
+#: code:addons/account_asset/models/account_asset.py:597
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_asset_partner_id
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_partner_id
 #, python-format
@@ -846,7 +845,7 @@ msgstr "Amortisman Kalemlerini Onayla"
 
 #. module: account_asset
 #. openerp-web
-#: code:addons/account_asset/static/src/js/account_asset.js:49
+#: code:addons/account_asset/static/src/js/account_asset.js:38
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_depreciation_line_move_posted_check
 #: model:ir.model.fields,field_description:account_asset.field_asset_asset_report_move_check
 #: model:ir.ui.view,arch_db:account_asset.view_asset_asset_report_search
@@ -999,21 +998,13 @@ msgid "The number of depreciations needed to depreciate your asset"
 msgstr "Demirbaşınızı amorti etmeniz için gereken amortisman sayısı"
 
 #. module: account_asset
-#: code:addons/account_asset/models/account_invoice.py:62
+#: code:addons/account_asset/models/account_invoice.py:52
 #, python-format
 msgid ""
 "The number of depreciations or the period length of your asset category "
 "cannot be null."
 msgstr ""
 "Amortismanların sayısı veya varlık kategorinizin dönem uzunluğu boş olamaz."
-
-#. module: account_asset
-#: code:addons/account_asset/models/account_asset.py:482
-#, python-format
-msgid ""
-"This depreciation is already linked to a journal entry! Please post or "
-"delete it."
-msgstr ""
 
 #. module: account_asset
 #: model:ir.ui.view,arch_db:account_asset.view_asset_depreciation_confirmation_wizard
@@ -1045,7 +1036,7 @@ msgstr "Tür"
 
 #. module: account_asset
 #. openerp-web
-#: code:addons/account_asset/static/src/js/account_asset.js:55
+#: code:addons/account_asset/static/src/js/account_asset.js:44
 #, python-format
 msgid "Unposted"
 msgstr "Onay Bekleyen"
@@ -1091,13 +1082,13 @@ msgid "You cannot delete a document that contains posted entries."
 msgstr "İşlenmiş amortisman kalemleri içeren bir varlığı silemezsiniz."
 
 #. module: account_asset
-#: code:addons/account_asset/models/account_asset.py:608
+#: code:addons/account_asset/models/account_asset.py:606
 #, python-format
 msgid "You cannot delete posted depreciation lines."
 msgstr "İşlenmiş amortisman kalemleri içeren bir varlığı silemezsiniz."
 
 #. module: account_asset
-#: code:addons/account_asset/models/account_asset.py:610
+#: code:addons/account_asset/models/account_asset.py:608
 #, python-format
 msgid "You cannot delete posted installment lines."
 msgstr "Onaylanmış amortisman kalemlerini silemezsiniz."

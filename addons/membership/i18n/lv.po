@@ -2,15 +2,12 @@
 # This file contains the translation of the following modules:
 # * membership
 # 
-# Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
-"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Latvian (https://www.transifex.com/odoo/teams/41243/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,7 +94,7 @@ msgstr ""
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_membership_invoice_view
 msgid "Cancel"
-msgstr "Atcelt"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_res_partner_membership_cancel
@@ -138,7 +135,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:membership.field_report_membership_company_id
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
 msgid "Company"
-msgstr "Uzņēmums"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.menu,name:membership.menu_marketing_config_association
@@ -159,13 +156,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:membership.field_membership_invoice_create_uid
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_create_uid
 msgid "Created by"
-msgstr "Izveidoja"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_invoice_create_date
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_create_date
 msgid "Created on"
-msgstr "Izveidots"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership_membership_state
@@ -287,7 +284,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
 #: model:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Group By"
-msgstr "Grupēt pēc"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_product_search_form_view
@@ -299,7 +296,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_id
 #: model:ir.model.fields,field_description:membership.field_report_membership_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_product_search_form_view
@@ -310,12 +307,12 @@ msgstr ""
 #: model:ir.model,name:membership.model_account_invoice
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_account_invoice_id
 msgid "Invoice"
-msgstr "Rēķins"
+msgstr ""
 
 #. module: membership
 #: model:ir.model,name:membership.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Rēķina rinda"
+msgstr ""
 
 #. module: membership
 #: model:ir.actions.act_window,name:membership.action_membership_invoice_view
@@ -376,13 +373,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:membership.field_membership_invoice_write_uid
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_write_uid
 msgid "Last Updated by"
-msgstr "Pēdējo reizi atjaunoja"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_invoice_write_date
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_write_date
 msgid "Last Updated on"
-msgstr "Pēdējās izmaiņas"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership_partner_id
@@ -553,7 +550,7 @@ msgstr ""
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_membership_membership_line_partner
 msgid "Partner"
-msgstr "Partneris"
+msgstr ""
 
 #. module: membership
 #: code:addons/membership/models/partner.py:181
@@ -575,17 +572,17 @@ msgstr ""
 #. module: membership
 #: model:ir.model,name:membership.model_product_template
 msgid "Product Template"
-msgstr "Produkta Veidne"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership_quantity
 msgid "Quantity"
-msgstr "Daudzums"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.menu,name:membership.menu_report_membership
 msgid "Reporting"
-msgstr "Atskaites"
+msgstr ""
 
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
@@ -597,7 +594,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:membership.view_report_membership_search
 #: model:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "Salesperson"
-msgstr "Pārdevējs"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,help:membership.field_res_partner_free_member
@@ -623,7 +620,7 @@ msgstr ""
 #. module: membership
 #: model:ir.ui.view,arch_db:membership.membership_products_form
 msgid "Taxes"
-msgstr "Nodokļi"
+msgstr ""
 
 #. module: membership
 #: model:ir.model.fields,help:membership.field_res_partner_membership_amount

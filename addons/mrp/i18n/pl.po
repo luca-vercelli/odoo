@@ -159,7 +159,7 @@ msgstr "<span>Nowy</span>"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 msgid "<span>PLAN ORDERS</span>"
-msgstr "<span>PLANUJ ZLECENIA</span>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
@@ -174,7 +174,7 @@ msgstr "<span>Podgląd</span>"
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 msgid "<span>WORK ORDERS</span>"
-msgstr "<span>ZLECENIA OPERACJI</span>"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_workcenter_form_view_inherit
@@ -1106,7 +1106,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Future Activities"
-msgstr "Przyszłe czynności"
+msgstr ""
 
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_workcenter_view
@@ -1459,7 +1459,7 @@ msgstr "Późno"
 #: model:ir.ui.view,arch_db:mrp.mrp_unbuild_search_view
 #: model:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Late Activities"
-msgstr "Spóźnione czynności"
+msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:432
@@ -2075,7 +2075,7 @@ msgstr ""
 #. module: mrp
 #: model:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Post Inventory"
-msgstr "Zarejestruj przesunięcia"
+msgstr ""
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document_priority
@@ -2294,7 +2294,7 @@ msgstr "Propaguj anulowania i podziały"
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_location_path
 msgid "Pushed Flow"
-msgstr "Przepływ wyjściowy"
+msgstr "Przebieg wydań"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_res_config_settings_module_quality_mrp

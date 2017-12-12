@@ -5,6 +5,7 @@
 # Translators:
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2017
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2017
+# Eric Geens <ericgeens@yahoo.com>, 2017
 # Martin Trigaux <mat@odoo.com>, 2017
 msgid ""
 msgstr ""
@@ -71,7 +72,7 @@ msgstr "Landengroep"
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_country_state_partner
 msgid "Fed. States"
-msgstr "Staat / Provincie"
+msgstr "Fed. staten/Provincies"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_localisation

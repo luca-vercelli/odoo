@@ -2,15 +2,12 @@
 # This file contains the translation of the following modules:
 # * fleet
 # 
-# Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
-"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Latvian (https://www.transifex.com/odoo/teams/41243/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -331,7 +328,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_company_id
 msgid "Company"
-msgstr "Uzņēmums"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.menu,name:fleet.fleet_configuration
@@ -512,7 +509,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_create_uid
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_create_uid
 msgid "Created by"
-msgstr "Izveidoja"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_create_date
@@ -527,7 +524,7 @@ msgstr "Izveidoja"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_create_date
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_create_date
 msgid "Created on"
-msgstr "Izveidots"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,help:fleet.field_fleet_vehicle_state_id
@@ -804,7 +801,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_odometer_view_search
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Group By"
-msgstr "Grupēt pēc"
+msgstr ""
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
@@ -890,7 +887,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_id_2903
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_29
@@ -1015,7 +1012,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_write_uid
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_write_uid
 msgid "Last Updated by"
-msgstr "Pēdējo reizi atjaunoja"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_service_type_write_date
@@ -1030,7 +1027,7 @@ msgstr "Pēdējo reizi atjaunoja"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_tag_write_date
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_write_date
 msgid "Last Updated on"
-msgstr "Pēdējās izmaiņas"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_contract_leasing
@@ -1443,7 +1440,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_fuel_view_tree
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Price"
-msgstr "Cena"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_price_per_liter
@@ -1517,7 +1514,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.menu,name:fleet.menu_fleet_reporting
 msgid "Reporting"
-msgstr "Atskaites"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_residual_value
@@ -1567,7 +1564,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_state_sequence
 msgid "Sequence"
-msgstr "Sērija"
+msgstr ""
 
 #. module: fleet
 #: selection:fleet.service.type,category:0
@@ -1674,7 +1671,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_contract_state
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_view_search
 msgid "Status"
-msgstr "Statuss"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_5
@@ -1743,7 +1740,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_tree
 msgid "Total"
-msgstr "Summa"
+msgstr ""
 
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_cost_amount
@@ -1751,7 +1748,7 @@ msgstr "Summa"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_amount
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_amount
 msgid "Total Price"
-msgstr "Cena Kopā"
+msgstr ""
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_14

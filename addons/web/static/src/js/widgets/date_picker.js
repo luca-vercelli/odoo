@@ -26,7 +26,7 @@ var DateWidget = Widget.extend({
 
         this.name = parent.name;
         this.options = _.defaults(options || {}, {
-            format : this.type_of_date === 'datetime' ? time.getLangDatetimeFormat() : time.getLangDateFormat(),
+            format : time.strftime_to_moment_format((this.type_of_date === 'datetime')? (l10n.date_format + ' ' + l10n.time_format) : l10n.date_format),
             minDate: moment({ y: 1900 }),
             maxDate: moment().add(200, "y"),
             calendarWeeks: true,

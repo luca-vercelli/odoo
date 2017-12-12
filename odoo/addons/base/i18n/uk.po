@@ -20240,7 +20240,7 @@ msgstr ""
 #: selection:base.language.install,state:0
 #: selection:base.module.update,state:0
 msgid "init"
-msgstr "init"
+msgstr ""
 
 #. module: base
 #: selection:ir.model.fields,ttype:0

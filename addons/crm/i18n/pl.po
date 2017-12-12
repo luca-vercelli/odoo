@@ -155,7 +155,7 @@ msgstr "# Spotkania"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_opportunity_report_nbr_activities
 msgid "# of Activities"
-msgstr "# czynności"
+msgstr "# aktywności"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -769,7 +769,7 @@ msgstr "Aktywne"
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_activity_report_menu
 msgid "Activities"
-msgstr "Czynności"
+msgstr "Działania"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_activity_report_action
@@ -779,32 +779,32 @@ msgstr "Czynności"
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Activities Analysis"
-msgstr "Analiza czynności"
+msgstr "Analiza aktywności"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_users_target_sales_done
 msgid "Activities Done Target"
-msgstr "Cel dla wykonanych czynności"
+msgstr "Cel dla wykonanych aktywności"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Activities Todo"
-msgstr "Czynności do wykonania"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_kanban_state
 msgid "Activity State"
-msgstr "Stan czynności"
+msgstr "Stan aktywności"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report_mail_activity_type_id
 msgid "Activity Type"
-msgstr "Typ czynności"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_menu_config_activity_types
 msgid "Activity Types"
-msgstr "Typ czynności"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1023,7 +1023,7 @@ msgstr "CRM"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_activity_report
 msgid "CRM Activity Analysis"
-msgstr "CRM analiza czynności"
+msgstr "CRM analiza aktywności"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_opportunity_report
@@ -1923,17 +1923,17 @@ msgstr "Od %s : %s"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Future Activities"
-msgstr "Przyszłe czynności"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Future Activities (7 days)"
-msgstr "Przyszłe czynności (7 dni)"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Future Activities (All)"
-msgstr "Przyszłe czynności (wszystkie)"
+msgstr ""
 
 #. module: crm
 #. openerp-web
@@ -2284,7 +2284,7 @@ msgstr "Ostatnia aktualizacja"
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Late Activities"
-msgstr "Spóźnione czynności"
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:882
@@ -2682,7 +2682,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "My Activities"
-msgstr "Moje czynności"
+msgstr "Moje aktywności"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -2752,12 +2752,12 @@ msgstr "Następne czynności"
 #. module: crm
 #: selection:crm.lead,kanban_state:0
 msgid "Next activity is planned"
-msgstr "Następna czynność jest planowana"
+msgstr "Następna akcja jest planowana"
 
 #. module: crm
 #: selection:crm.lead,kanban_state:0
 msgid "Next activity late"
-msgstr "Następna spóźniona czynność"
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:1146
@@ -2768,7 +2768,7 @@ msgstr "Brak tematu"
 #. module: crm
 #: selection:crm.lead,kanban_state:0
 msgid "No next activity planned"
-msgstr "Brak planowanej następnej czynności"
+msgstr "Brak planowanej następnej aktywności"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -3771,7 +3771,7 @@ msgstr "Zespół"
 #. module: crm
 #: model:ir.filters,name:crm.ir_filters_crm_opportunity_report_next_action
 msgid "Team Activities"
-msgstr "Czynności zespołu"
+msgstr "Aktywności zespołu"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3985,7 +3985,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Today Activities"
-msgstr "Dzisiejsze czynności"
+msgstr "Dzisiejsze aktywności"
 
 #. module: crm
 #: model:crm.lost.reason,name:crm.lost_reason_1

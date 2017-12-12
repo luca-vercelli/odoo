@@ -13,7 +13,7 @@
 # Jarnhold Nattestad <nattestads@gmail.com>, 2017
 # Per Rasmussen <perhgrasmussen@gmail.com>, 2017
 # Visti Kristensen <visti@vkdata.dk>, 2017
-# lhmflexerp <lhm@flexerp.dk>, 2017
+# Laerke Mathiasen <lhm@flexerp.dk>, 2017
 # JonathanStein <jstein@image.dk>, 2017
 msgid ""
 msgstr ""
@@ -420,11 +420,6 @@ msgid ""
 "                                        <span class=\"small\"/>\n"
 "                                    </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                        <span class=\"fa\" data-icon=\"\"/>\n"
-"                                        <strong>Abonnementer</strong><br/>\n"
-"                                        <span class=\"small\"/>\n"
-"                                    </span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -435,11 +430,6 @@ msgid ""
 "                                        <span class=\"small\">&lt; 200 contacts</span>\n"
 "                                    </span>"
 msgstr ""
-"<span class=\"panel-title\">\n"
-"                                        <span class=\"fa\" data-icon=\"\"/>\n"
-"                                        <strong> Opret manuelt</strong><br/>\n"
-"                                        <span class=\"small\">&lt; 200 kontakter</span>\n"
-"                                    </span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -882,7 +872,7 @@ msgstr "Tilføj funktioner"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Add a qualification step before creating an opportunity"
-msgstr "Tilføj et kvalifikationstrin før du opretter en salgsmulighed"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
@@ -952,7 +942,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_opportunities_amount
 msgid "Amount of quotations to invoice"
-msgstr "Antal tilbud til fakturering"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
@@ -1087,7 +1077,7 @@ msgstr "Bedre synlighed på team aktiviteter"
 #: code:addons/crm/models/crm_lead.py:381
 #, python-format
 msgid "Boom! Team record for the past 30 days."
-msgstr "Boom! Team rekord for de sidste 30 dage."
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1567,7 +1557,7 @@ msgstr "Oprettelsesmåned"
 #. module: crm
 #: model:ir.actions.server,name:crm.action_your_pipeline
 msgid "Crm: My Pipeline"
-msgstr "Crm: Min Pipeline"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_company_currency
@@ -1945,7 +1935,7 @@ msgstr "Forventede omsætninger"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_dashboard_graph_period_pipeline
 msgid "Expected to Close"
-msgstr "Forventet at Lukke"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
@@ -2942,7 +2932,7 @@ msgstr "Antal værelser"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_opportunities_count
 msgid "Number of open opportunities"
-msgstr "Antal åbne salgsmuligheder"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3023,12 +3013,12 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Open Opportunities"
-msgstr "Åbne Salgsmuligheder"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Open Opportunity"
-msgstr "Åben Salgsmulighed"
+msgstr ""
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_case_form_view_salesteams_opportunity
@@ -3319,7 +3309,7 @@ msgstr ""
 #: code:addons/crm/models/crm_team.py:231
 #, python-format
 msgid "Pipeline: Expected Revenue"
-msgstr "Pipeline: Forventet Omsætning"
+msgstr ""
 
 #. module: crm
 #: model:web.planner,tooltip_planner:crm.planner_crm
@@ -3476,8 +3466,6 @@ msgid ""
 "Ready to boost your sales? Your <b>Pipeline</b> can be found here, under "
 "<b>CRM</b> app."
 msgstr ""
-"Klar til at øge dit salg? Din <b>Pipeline</b> kan findes her, under "
-"<b>CRM</b> app'en."
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lost_reason
@@ -3526,7 +3514,7 @@ msgstr "Krav"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid "Restore"
-msgstr "Gendan"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4129,8 +4117,6 @@ msgstr "Dette er standardkonfigurationen, der er ikke noget at konfigurere"
 msgid ""
 "This opportunity has <b>no activity planned</b>. <i>Click to check them.</i>"
 msgstr ""
-"Denne salgsmulighed har <b>ikke nogen aktiviteter planlagt</b>. <i>Klik for "
-"at tjekke dem.</i>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage_probability
@@ -4242,13 +4228,13 @@ msgstr "Ikke tildelt"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Unassigned Lead"
-msgstr "Ikke-tildelt Kundeemne"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_unassigned_leads_count
 #: model:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
 msgid "Unassigned Leads"
-msgstr "Ikke-tildelte Kundeemner"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4528,7 +4514,7 @@ msgstr ""
 msgid ""
 "When sending mails, the default email address is taken from the sales "
 "channel."
-msgstr "Når der sendes mails, tages standardmailadressen fra salgskanalen."
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4627,13 +4613,13 @@ msgstr "Du skal angive filter for dit valg"
 #: code:addons/crm/models/crm_lead.py:385
 #, python-format
 msgid "You just beat your personal record for the past 30 days."
-msgstr "Du har lige slået din personlige rekord for de seneste 30 dage."
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:387
 #, python-format
 msgid "You just beat your personal record for the past 7 days."
-msgstr "Du har lige slået din personlige rekord for de seneste 7 dage."
+msgstr ""
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
@@ -4779,7 +4765,7 @@ msgstr "eller"
 #. module: crm
 #: model:ir.model,name:crm.model_res_config_settings
 msgid "res.config.settings"
-msgstr "res.config.settings"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

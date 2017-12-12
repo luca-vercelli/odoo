@@ -339,7 +339,7 @@ msgstr "Αυτόν τον μήνα"
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.hr_timesheet_line_search
 msgid "This Week"
-msgstr "Της Εβδομάδας"
+msgstr "Αυτή την εβδομάδα"
 
 #. module: hr_timesheet
 #: model:ir.ui.view,arch_db:hr_timesheet.report_timesheet

@@ -14,14 +14,13 @@
 # Martin K <martinkuenz@gmail.com>, 2017
 # Renzo Meister <info@jamotion.ch>, 2017
 # Niki Waibel <niki.waibel@gmail.com>, 2017
-# AppleMentalist <felix.schnatbaum@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
-"Last-Translator: AppleMentalist <felix.schnatbaum@gmail.com>, 2017\n"
+"Last-Translator: Niki Waibel <niki.waibel@gmail.com>, 2017\n"
 "Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,17 +31,17 @@ msgstr ""
 #. module: anonymization
 #: model:ir.ui.view,arch_db:anonymization.view_ir_model_fields_nonymization_kanban
 msgid "<strong>Field</strong>"
-msgstr "<strong>Feld</strong>"
+msgstr ""
 
 #. module: anonymization
 #: model:ir.ui.view,arch_db:anonymization.view_ir_model_fields_nonymization_kanban
 msgid "<strong>Model</strong>"
-msgstr "<strong>Model</strong>"
+msgstr ""
 
 #. module: anonymization
 #: model:ir.ui.view,arch_db:anonymization.view_ir_model_fields_nonymization_kanban
 msgid "<strong>Status</strong>"
-msgstr "<strong>Status</strong>"
+msgstr ""
 
 #. module: anonymization
 #: model:ir.actions.act_window,name:anonymization.action_ir_model_fields_anonymization_history_tree
@@ -399,8 +398,6 @@ msgid ""
 "This is the file created by the anonymization process. It should have the "
 "extension '.json' or '.pickle'."
 msgstr ""
-"Dies ist die Datei die beim Anonymisierungs Prozess erstellt wurde. Die "
-"endung sollte '.json' oder '.pickle' sein. "
 
 #. module: anonymization
 #: selection:ir.model.fields.anonymize.wizard,state:0

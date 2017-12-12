@@ -9,7 +9,6 @@
 # Hugo Santos <hugo.santos@factorlibre.com>
 # Albert Cabedo <albert@gafic.com>
 # Olivier Colson <oco@odoo.com>
-# Roberto Lizana <robertolizana@trey.es>
 
 {
     "name" : "Spain - Accounting (PGCE 2008)",
@@ -36,7 +35,6 @@ Spanish charts of accounts (PGCE 2008).
         "base_vat",
     ],
     "data" : [
-        'data/account_group.xml',
         'data/account_chart_template_data.xml',
         'data/account_account_template_common_data.xml',
         'data/account_account_template_pymes_data.xml',

@@ -382,13 +382,9 @@ class test_o2m(CreatorCase):
     def test_multiple_records_name(self):
         self.assertEqual(
             self.export(self.commands, fields=['const', 'value']),
-            [
-                [u'4', u'export.one2many.child:4'],
-                [u'', u'export.one2many.child:42'],
-                [u'', u'export.one2many.child:36'],
-                [u'', u'export.one2many.child:4'],
-                [u'', u'export.one2many.child:13'],
-            ])
+            [[
+                u'4', u','.join(self.names)
+            ]])
 
     def test_multiple_records_id(self):
         export = self.export(self.commands, fields=['const', 'value/.id'])
@@ -406,23 +402,19 @@ class test_o2m(CreatorCase):
     def test_multiple_records_with_name_before(self):
         self.assertEqual(
             self.export(self.commands, fields=['const', 'value', 'value/value']),
-            [
-                [u'4', u'export.one2many.child:4', u'4'],
-                ['', u'export.one2many.child:42', u'42'],
-                ['', u'export.one2many.child:36', u'36'],
-                ['', u'export.one2many.child:4', u'4'],
-                ['', u'export.one2many.child:13', u'13'],
-            ])
+            [[ # exports sub-fields of very first o2m
+                u'4', u','.join(self.names), u'4'
+            ]])
 
     def test_multiple_records_with_name_after(self):
         self.assertEqual(
             self.export(self.commands, fields=['const', 'value/value', 'value']),
-            [
-                [u'4', u'4', u'export.one2many.child:4'],
-                ['', u'42', u'export.one2many.child:42'],
-                ['', u'36', u'export.one2many.child:36'],
-                ['', u'4', u'export.one2many.child:4'],
-                ['', u'13', u'export.one2many.child:13'],
+            [ # completely ignores name_get request
+                [u'4', u'4', ''],
+                ['', u'42', ''],
+                ['', u'36', ''],
+                ['', u'4', ''],
+                ['', u'13', ''],
             ])
 
     def test_multiple_subfields_neighbour(self):
@@ -593,13 +585,10 @@ class test_m2m(CreatorCase):
     def test_multiple_records_name(self):
         self.assertEqual(
             self.export(self.commands, fields=['const', 'value']),
-            [
-                [u'4', u'export.many2many.other:4'],
-                ['', u'export.many2many.other:42'],
-                ['', u'export.many2many.other:36'],
-                ['', u'export.many2many.other:4'],
-                ['', u'export.many2many.other:13'],
-            ])
+            [[ # FIXME: hardcoded comma, import uses config.csv_internal_sep
+               # resolution: remove configurable csv_internal_sep
+                u'4', u','.join(self.names)
+            ]])
 
     # essentially same as o2m, so boring
 

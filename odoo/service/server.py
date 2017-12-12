@@ -140,9 +140,8 @@ class FSWatcher(object):
                     except SyntaxError:
                         _logger.error('autoreload: python code change detected, SyntaxError in %s', path)
                     else:
-                        if not getattr(odoo, 'phoenix', False):
-                            _logger.info('autoreload: python code updated, autoreload activated')
-                            restart()
+                        _logger.info('autoreload: python code updated, autoreload activated')
+                        restart()
 
     def start(self):
         self.observer.start()

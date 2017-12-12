@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Murat Kaplan <muratk@projetgrup.com>, 2017
-# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2017
 # Ulaş Sarıkaya <hasanulassarikaya@gmail.com>, 2017
 # Ayhan KIZILTAN <akiziltan76@hotmail.com>, 2017
 # Martin Trigaux <mat@odoo.com>, 2017
@@ -139,7 +138,7 @@ msgstr ""
 #. module: account_check_printing
 #: model:ir.model,name:account_check_printing.model_account_journal
 msgid "Journal"
-msgstr "Yevmiye"
+msgstr "Journal"
 
 #. module: account_check_printing
 #: model:ir.model.fields,field_description:account_check_printing.field_print_prenumbered_checks___last_update

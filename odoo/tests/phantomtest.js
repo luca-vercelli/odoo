@@ -61,7 +61,6 @@ function PhantomTest() {
         console.log('<phantomLog>'+message+'</phantomLog>');
     };
     this.page.onLoadFinished = function(status) {
-        console.log('PhantomJS: onLoadFinished. Status=', status);
         if (status === "success") {
             for (var k in self.inject) {
                 var found = false;

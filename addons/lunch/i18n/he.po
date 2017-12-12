@@ -42,7 +42,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.report_lunch_order
 msgid "<strong>Total</strong>"
-msgstr "<strong>סה\"כ</strong>"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,help:lunch.lunch_cashmove_action_control_accounts
@@ -61,14 +61,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_active
 #: model:ir.model.fields,field_description:lunch.field_lunch_product_active
 msgid "Active"
-msgstr "פעיל"
+msgstr ""
 
 #. module: lunch
 #. openerp-web
 #: code:addons/lunch/static/src/xml/lunch.xml:15
 #, python-format
 msgid "Add"
-msgstr "הוסף"
+msgstr ""
 
 #. module: lunch
 #: code:addons/lunch/models/lunch.py:294
@@ -93,7 +93,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_cashmove_amount
 msgid "Amount"
-msgstr "סכום"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_end_hour
@@ -104,7 +104,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:lunch.lunch_alert_view_search
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_search
 msgid "Archived"
-msgstr "התווסף לארכיון"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_balance_visible
@@ -158,13 +158,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_tree
 #: model:ir.ui.view,arch_db:lunch.view_lunch_order_line_lucky
 msgid "Cancel"
-msgstr "בטל"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
 #: selection:lunch.order,state:0 selection:lunch.order.line,state:0
 msgid "Cancelled"
-msgstr "בוטלה"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_line_cashmove
@@ -274,7 +274,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_product_description
 #: model:ir.ui.view,arch_db:lunch.report_lunch_order
 msgid "Description"
-msgstr "תיאור"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_display
@@ -336,14 +336,14 @@ msgstr ""
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_friday
 msgid "Friday"
-msgstr "שישי"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search_2
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
 #: model:ir.ui.view,arch_db:lunch.lunch_product_view_search
 msgid "Group By"
-msgstr "קבץ לפי"
+msgstr ""
 
 #. module: lunch
 #: model:ir.module.category,description:lunch.module_lunch_category
@@ -507,12 +507,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_message
 #: model:ir.ui.view,arch_db:lunch.lunch_alert_view_form
 msgid "Message"
-msgstr "הודעה"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_monday
 msgid "Monday"
-msgstr "שני"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_cashmove_view_search
@@ -646,7 +646,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_product_price
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_tree
 msgid "Price"
-msgstr "מחיר"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.view_lunch_product_kanban
@@ -659,18 +659,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_product_name
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
 msgid "Product"
-msgstr "פריט"
+msgstr ""
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.lunch_product_category_action
 #: model:ir.ui.menu,name:lunch.lunch_product_category_menu
 msgid "Product Categories"
-msgstr "קטגוריות מוצרים"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_line_category_id
 msgid "Product Category"
-msgstr "קטגורית מוצר"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_product_category_view_form
@@ -692,7 +692,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_order_line_ids
 #: model:ir.ui.menu,name:lunch.lunch_product_menu
 msgid "Products"
-msgstr "מוצרים"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_product_category_view_form
@@ -730,7 +730,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_saturday
 msgid "Saturday"
-msgstr "שבת"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_alert_view_form
@@ -784,7 +784,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_sunday
 msgid "Sunday"
-msgstr "ראשון"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,help:lunch.field_lunch_order_company_id
@@ -814,7 +814,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_thursday
 msgid "Thursday"
-msgstr "חמישי"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_order_line_view_search
@@ -838,7 +838,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_tuesday
 msgid "Tuesday"
-msgstr "שלישי"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.report_lunch_order
@@ -851,7 +851,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_user_id
 #: model:res.groups,name:lunch.group_lunch_user
 msgid "User"
-msgstr "משתמש"
+msgstr ""
 
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_order_line_lucky_supplier_ids
@@ -869,7 +869,7 @@ msgstr ""
 #. module: lunch
 #: model:ir.model.fields,field_description:lunch.field_lunch_alert_wednesday
 msgid "Wednesday"
-msgstr "רביעי"
+msgstr ""
 
 #. module: lunch
 #: model:ir.ui.view,arch_db:lunch.lunch_alert_view_form

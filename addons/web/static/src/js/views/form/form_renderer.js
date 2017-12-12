@@ -247,17 +247,6 @@ var FormRenderer = BasicRenderer.extend({
         return idForLabel;
     },
     /**
-     * @override
-     * @private
-     */
-    _postProcessField: function (widget, node) {
-        this._setIDForLabel(widget, this._getIDForLabel(node.attrs.name));
-        this._handleAttributes(widget.$el, node);
-        if (JSON.parse(node.attrs.default_focus || "0")) {
-            this.defaultFocusField = widget;
-        }
-    },
-    /**
      * @private
      * @param {Object} node
      * @returns {jQueryElement}
@@ -317,6 +306,23 @@ var FormRenderer = BasicRenderer.extend({
         this._handleAttributes($result, node);
         this._registerModifiers(node, this.state, $result);
         return $result;
+    },
+    /**
+     * @override
+     * @private
+     * @param {string} node
+     * @param {Object} record
+     * @param {Object} [options]
+     * @returns {AbstractField}
+     */
+    _renderFieldWidget: function (node, record, options, modifiersOptions) {
+        var widget = this._super.apply(this, arguments);
+        this._setIDForLabel(widget, this._getIDForLabel(node.attrs.name));
+        this._handleAttributes(widget.$el, node);
+        if (JSON.parse(node.attrs.default_focus || "0")) {
+            this.defaultFocusField = widget;
+        }
+        return widget;
     },
     /**
      * @private
@@ -628,8 +634,6 @@ var FormRenderer = BasicRenderer.extend({
                 $statusbar.append(widget.$el);
             }
         });
-        this._handleAttributes($statusbar, node);
-        this._registerModifiers(node, this.state, $statusbar);
         return $statusbar;
     },
     /**

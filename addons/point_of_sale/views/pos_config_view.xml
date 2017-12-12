@@ -77,7 +77,7 @@
                                 <field name="start_category"/>
                             </div>
                             <div class="o_setting_right_pane">
-                                <label for="start_category"/>
+                                <label for="iface_start_categ_id"/>
                                 <div class="text-muted">
                                     Start selling from a default product category
                                 </div>

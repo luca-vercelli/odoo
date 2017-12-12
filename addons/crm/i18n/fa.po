@@ -13,14 +13,13 @@
 # ifaraz ir <ifarazir@gmail.com>, 2017
 # hamid hvbnet <hvbnet@yahoo.com>, 2017
 # Morovat Guivi <tarjomac@gmail.com>, 2017
-# سید محمد آذربرا <mohammadazarbara98@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
-"Last-Translator: سید محمد آذربرا <mohammadazarbara98@gmail.com>, 2017\n"
+"Last-Translator: Morovat Guivi <tarjomac@gmail.com>, 2017\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -196,7 +195,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<i class=\"fa fa-question-circle\"> view examples</i>"
-msgstr "<i class=\"fa fa-question-circle\"> مشاهده مثال‌ها </i>"
+msgstr ""
 
 #. module: crm
 #. openerp-web
@@ -438,8 +437,6 @@ msgid ""
 "<span class=\"panel-title\"><span data-icon=\"\"/><strong> Exercise 3</strong></span>\n"
 "                                    <span>(Salesperson)</span>"
 msgstr ""
-"<span class=\"panel-title\"><span data-icon=\"\"/><strong> تمرین 3</strong></span>\n"
-"                                    <span>(فروشنده)</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -495,10 +492,6 @@ msgid ""
 "                                        Group Y Axis: Expected Closing Date\n"
 "                                        Filter: Won Opportunities"
 msgstr ""
-"<strong>تمرین: </strong>سعی کنید زمان بسته شدن یک معامله را تجزینه و تحلیل کنید.\n"
-"                                        محور X: تاریخ ایجاد\n"
-"                                        محور Y: تاریخ بسته شدن انتظار\n"
-"                                        فیلتر: فرصت‌های برنده"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -529,10 +522,6 @@ msgid ""
 "                                    After a few month, set the real success rate according to the stages, to have\n"
 "                                    accurate expected revenues by closing date."
 msgstr ""
-"<strong>پیش‌بینی درآمد آینده</strong><br/>\n"
-"                                    شما می‌توانید بلوغ یک کانال فروش را از طریق پیش‌بینی درآمد آینده‌ی آن در ماه‌ها و فصل‌های آتی بسنجید\n"
-"                                    تیم را با داشتن مراحل بروز کسب فرصت‌های تجاری جهت ارائه پیش‌بینی های موثر آموزش دهید.\n"
-"                                   بعد از چند ماه نرخ واقعی موفقیت خود را با توجه به مراحل تعیین کنید، تا به‌طور دقیق بدانید انتظارتان از درآمد تا زمان بسته شدن چقدر است."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -593,12 +582,12 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<strong>Sales Stages</strong>"
-msgstr "<strong>مراحل فروش</strong>"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<strong>Sales objectives</strong>:"
-msgstr "<strong>اهداف فروش</strong>:"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -676,7 +665,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<strong>Your Main KPIs:</strong>"
-msgstr "<strong>شاخص‌های کلیدی عملکرد:</strong>"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -925,9 +914,6 @@ msgid ""
 "                        <br/>\n"
 "                        If not, our CRM experts are available to help you achieve your KPIs."
 msgstr ""
-"در انتهای فرآیند استقرار CRM انتظارات شما باید تمام شده باشند\n"
-"<br/>\n"
-"در غیر این‌صورت کارشناساس حرفه‌ای CRM ما آماده هستند تا در دستیابی شما به شاخص کلیدی KPI عملکرد کمک حال شما باشند"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -967,7 +953,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Better visibility on team activities"
-msgstr "دید بهتر در فعالیت‌های تیم"
+msgstr ""
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:381
@@ -1193,7 +1179,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Configure the stages of your sales pipeline"
-msgstr "گام‌های فروش مراحل فروش را پیکربندی نمایید."
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -1573,8 +1559,6 @@ msgid ""
 "Depending on how complex your business is, it may take between 6 months and 18 months for a new\n"
 "                                    sales channel to efficiently forecasts future revenues."
 msgstr ""
-"بسته به پیچیدگی کسب و کار شما ممکن است بین 6 ماه تا 18 ماه زمان لازم باشد تا"
-" بتوانید پیش‌بینی موثری از درآمد آینده داشته باشید."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2002,7 +1986,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Have clear forecasts on sales"
-msgstr "داشتن هدف مشخص در فروش"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2178,7 +2162,7 @@ msgstr "سرفصل حساب انتساب داده شده به این تماس"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "KPIs"
-msgstr "شاخاص‌های کلیدی عملکرد"
+msgstr ""
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_date_action_last
@@ -2339,7 +2323,7 @@ msgstr ""
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_salesperson
 msgid "Leads By Salespersons"
-msgstr "سرنخ‌ها براساس فروشنده‌ها"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
@@ -2735,7 +2719,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "No salesperson"
-msgstr "هیچ فروشنده‌ای وجود ندارد."
+msgstr ""
 
 #. module: crm
 #: selection:crm.lead,priority:0 selection:crm.opportunity.report,priority:0
@@ -3131,8 +3115,6 @@ msgstr ""
 #: model:web.planner,tooltip_planner:crm.planner_crm
 msgid "Plan your sales strategy: objectives, leads, KPIs, and much more!"
 msgstr ""
-"استراتژی فروش خود را برنامه‌ریزی کنید: اهداف، سرنخ‌ها، شاخص‌های کلیدی عملکرد"
-" و غیره!"
 
 #. module: crm
 #: model:ir.model,name:crm.model_web_planner
@@ -3331,7 +3313,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Revenue by Salesperson"
-msgstr "کسب درآمد توسط فروشنده"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3362,7 +3344,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Sales Forecasts (month+1)"
-msgstr "پیش‌بینی فروش (ماه+1)"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3644,8 +3626,6 @@ msgid ""
 "Stages allow salespersons to easily track how a specific opportunity\n"
 "            is positioned in the sales cycle."
 msgstr ""
-"مراحل به فروشنده‌ها کمک می‌کند تا براحتی بتوانند چگونگی قرار گرفتن یک فرصت "
-"تجاری را در چرخه‌ی فروش پیگیری کنند"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_state
@@ -3909,7 +3889,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Time to Close a Deal"
-msgstr "زمان بستن یک قرارداد است"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4216,7 +4196,6 @@ msgstr ""
 msgid ""
 "What are the main KPIs you need to track for your the sales activities?"
 msgstr ""
-"اصلی‌ترین شاخص کلیدی که برای پیگیری فعالیت‌های فروش خود نیاز دارید چیست؟"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4225,8 +4204,6 @@ msgid ""
 "                        dealing with? Being clear on your expectations is the first step\n"
 "                        of a successful implementation."
 msgstr ""
-"اهداف فروش شما چیست؟ با چه چالش‌هایی در بحث فروش روبرو هستید؟\n"
-"روشن بودن انتظارات شما اولین گام در یک پیاده‌سازی موفق می‌باشد"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -4371,12 +4348,12 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Your Expectations"
-msgstr "انتظارات شما"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "Your KPIs"
-msgstr "شاخص‌های کلیدی عملکرد شما"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

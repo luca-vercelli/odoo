@@ -1,115 +1,118 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_payroll
-# 
+#
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2015
+# Pavol Krnáč <pavol.krnac@ekoenergo.sk>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-30 13:11+0000\n"
-"PO-Revision-Date: 2017-11-30 13:11+0000\n"
-"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
-"Language-Team: Slovak (https://www.transifex.com/odoo/teams/41243/sk/)\n"
+"POT-Creation-Date: 2016-08-18 14:06+0000\n"
+"PO-Revision-Date: 2015-12-19 14:56+0000\n"
+"Last-Translator: Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>\n"
+"Language-Team: Slovak (http://www.transifex.com/odoo/odoo-9/language/sk/)\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: sk\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_salary_rule.py:41
+#: code:addons/hr_payroll/hr_payroll.py:59
 #, python-format
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (kópia)"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_state
 msgid ""
-"* When the payslip is created the status is 'Draft'\n"
-"                \n"
-"* If the payslip is under verification, the status is 'Waiting'.\n"
-"                \n"
-"* If the payslip is confirmed then status is set to 'Done'.\n"
-"                \n"
+"* When the payslip is created the status is 'Draft'.            \n"
+"* If the payslip is under verification, the status is "
+"'Waiting'.             \n"
+"* If the payslip is confirmed then status is set to 'Done'.            \n"
 "* When user cancel payslip the status is 'Rejected'."
 msgstr ""
+"* Keď je výplatná páska vytvorený stav je \"Koncept\".\n"
+"* Ak sa výplatná páska overuje, stav je 'Čaká'.\n"
+"* Ak je výplatná páska potvrdena statuje je 'Hotovo',\n"
+"* Keď používateľ zruší výplatnú pásku stav je \"Odmietnuté\"."
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Address</strong>"
-msgstr ""
+msgstr "<strong>Address</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Authorized signature</strong>"
-msgstr ""
+msgstr "<strong>Authorized signature</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Bank Account</strong>"
-msgstr ""
+msgstr "<strong>Bank Account</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Date From:</strong>"
-msgstr ""
+msgstr "<strong>Dátum od:</strong>"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Date From</strong>"
-msgstr ""
+msgstr "<strong>Date From</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Date To:</strong>"
-msgstr ""
+msgstr "<strong>Dátum do:</strong>"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Date To</strong>"
-msgstr ""
+msgstr "<strong>Date To</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Designation</strong>"
-msgstr ""
+msgstr "<strong>Designation</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Email</strong>"
-msgstr ""
+msgstr "<strong>Email</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Identification No</strong>"
-msgstr ""
+msgstr "<strong>Identification No</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Name</strong>"
-msgstr ""
+msgstr "<strong>Name</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "<strong>Reference</strong>"
-msgstr ""
+msgstr "<strong>Reference</strong> "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "<strong>Register Name:</strong>"
-msgstr ""
+msgstr "<strong>Zaregistrovať meno:</strong>"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
@@ -120,47 +123,46 @@ msgstr "<strong>Celkom</strong>"
 #: model:ir.actions.act_window,help:hr_payroll.action_contribution_register_form
 msgid ""
 "A contribution register is a third party involved in the salary\n"
-"            payment of the employees. It can be the social security, the\n"
-"            estate or anyone that collect or inject money on payslips."
+"                payment of the employees. It can be the social security, "
+"the\n"
+"                estate or anyone that collect or inject money on payslips."
 msgstr ""
+"Príspevokvý register je tretia strana podieľajúca sa na vyplácaní\n"
+"mzdy zamestnancov. Môže to byť do sociálneho zabezpečenia,\n"
+"nehnuteľnosti alebo ktokoľvek, ktoré zbiera alebo vkladá peniaze do "
+"výplatných pások."
 
 #. module: hr_payroll
-#: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Accounting"
-msgstr ""
+msgstr "Účtovníctvo"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Accounting Information"
-msgstr ""
+msgstr "Účtovná informácia"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_active
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_active
 msgid "Active"
-msgstr ""
+msgstr "Aktívny"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Add an internal note..."
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.ui.view,arch_db:hr_payroll.hr_contract_advantage_template_view_form
-msgid "Advantage Name"
-msgstr ""
+msgstr "Pridať internú poznámku"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.act_children_salary_rules
 msgid "All Children Rules"
-msgstr ""
+msgstr "Všetky deti Pravidlá"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,condition_select:0
 #: selection:hr.salary.rule,condition_select:0
 msgid "Always True"
-msgstr ""
+msgstr "Vždy pravda"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input_amount
@@ -169,25 +171,25 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Amount"
-msgstr ""
+msgstr "Suma"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_amount_select
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_amount_select
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Amount Type"
-msgstr ""
+msgstr "Druh sumy"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Annually"
-msgstr ""
+msgstr "Ročne"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_appears_on_payslip
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_appears_on_payslip
 msgid "Appears on Payslip"
-msgstr ""
+msgstr "Objaví sa na výplatnej páske"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_condition_python
@@ -196,28 +198,31 @@ msgid ""
 "Applied this rule for calculation if condition is true. You can specify "
 "condition like basic > 1000."
 msgstr ""
+"Uplatňovať toto pravidlo pre výpočet, ak je podmienka pravda. Môžete určiť "
+"podmienky, ako je základ > 1000."
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings_module_l10n_be_hr_payroll
-msgid "Belgium Payroll"
-msgstr ""
+#: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_configuration
+msgid "Apply"
+msgstr "Použiť"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Bi-monthly"
-msgstr ""
+msgstr "Dvojmesačne"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Bi-weekly"
-msgstr ""
+msgstr "Dvojtýždenne"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_form
 msgid "Calculations"
-msgstr ""
+msgstr "Kalkulácie"
 
 #. module: hr_payroll
+#: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_configuration
 #: model:ir.ui.view,arch_db:hr_payroll.view_payslip_lines_contribution_register
 msgid "Cancel"
 msgstr "Zrušiť"
@@ -225,61 +230,49 @@ msgstr "Zrušiť"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Cancel Payslip"
-msgstr ""
-
-#. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_payslip.py:98
-#, python-format
-msgid "Cannot cancel a payslip that is done."
-msgstr ""
+msgstr "Zrušiť výplatnú pásku"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_category_id
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category_id_7804
+#: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category_id_9052
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Category"
-msgstr ""
+msgstr "Kategória"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Child Rules"
-msgstr ""
+msgstr "Detské pravidlá"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_child_ids
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_child_ids
 msgid "Child Salary Rule"
-msgstr ""
+msgstr "Dieťa plat pravidlo"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_children_ids
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category_children_ids
 msgid "Children"
-msgstr ""
+msgstr "Deti"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Children Definition"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
-msgid "Choose a Payroll Localization"
-msgstr ""
+msgstr "Definícia detí"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,help:hr_payroll.action_contribution_register_form
 msgid "Click to add a new contribution register."
-msgstr ""
+msgstr "Kliknite pre pridanie nového príspevkového registra."
 
 #. module: hr_payroll
 #: selection:hr.payslip.run,state:0
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 msgid "Close"
-msgstr ""
+msgstr "Zatvoriť"
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_code
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input_code
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_code
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days_code
@@ -290,13 +283,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Code"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.ui.view,arch_db:hr_payroll.hr_payroll_structure_view_kanban
-#: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_view_kanban
-msgid "Code:"
-msgstr ""
+msgstr "Kód"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
@@ -316,38 +303,44 @@ msgstr "Spoločnost"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Company Contribution"
-msgstr ""
+msgstr "Príspevok od spoločnosti"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Computation"
-msgstr ""
+msgstr "Výpočet"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Compute Sheet"
-msgstr ""
+msgstr "Výpočtový list"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_condition_select
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_condition_select
 msgid "Condition Based on"
-msgstr ""
+msgstr "Podmienka založená na"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Conditions"
-msgstr ""
+msgstr "Podmienky"
 
 #. module: hr_payroll
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_configuration
 msgid "Configuration"
-msgstr ""
+msgstr "Nastavenie"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_hr_payroll_configuration
+#: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_configuration
+msgid "Configure Payroll"
+msgstr "Konfigurovať výplatnú pásku"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Confirm"
-msgstr ""
+msgstr "Potvrdiť"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_contract_id
@@ -355,18 +348,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_contract_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days_contract_id
 msgid "Contract"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.actions.act_window,name:hr_payroll.hr_contract_advantage_template_action
-#: model:ir.ui.menu,name:hr_payroll.hr_contract_advantage_template_menu_action
-msgid "Contract Advantage Templates"
-msgstr ""
+msgstr "Contract "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_form
 msgid "Contribution"
-msgstr ""
+msgstr "Príspevok"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_contribution_register
@@ -374,12 +361,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_register_id
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Contribution Register"
-msgstr ""
+msgstr "Príspevkový register"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_payslip_lines_contribution_register
 msgid "Contribution Register's Payslip Lines"
-msgstr ""
+msgstr "Riadky výplatnej pásky príspevkového registra"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_contribution_register_form
@@ -387,11 +374,16 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_filter
 #: model:ir.ui.view,arch_db:hr_payroll.hr_contribution_register_tree
 msgid "Contribution Registers"
-msgstr ""
+msgstr "Príspevkové registre"
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_create_uid
+#: model:ir.model.fields,help:hr_payroll.field_hr_payroll_config_settings_module_hr_payroll_account
+msgid "Create journal entries from payslips"
+msgstr "Vytvoriť záznamy do účtovnej knihy z výplatných pások"
+
+#. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_create_uid
+#: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_config_settings_create_uid
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_create_uid
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_create_uid
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees_create_uid
@@ -407,8 +399,8 @@ msgid "Created by"
 msgstr "Vytvoril"
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_create_date
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_create_date
+#: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_config_settings_create_date
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_create_date
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_create_date
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees_create_date
@@ -427,31 +419,21 @@ msgstr "Vytvorené"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_credit_note
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_run_credit_note
 msgid "Credit Note"
-msgstr ""
+msgstr "Kreditná poznámka"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_date_from
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_run_date_start
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register_date_from
 msgid "Date From"
-msgstr ""
+msgstr "Date From "
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_date_to
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_run_date_end
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register_date_to
 msgid "Date To"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_default_value
-msgid "Default value for this advantage"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model.fields,help:hr_payroll.field_hr_contract_schedule_pay
-msgid "Defines the frequency of the wage payment."
-msgstr ""
+msgstr "Date To "
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_struct_id
@@ -461,6 +443,10 @@ msgid ""
 "mandatory anymore and thus the rules applied will be all the rules set on "
 "the structure of all contracts of the employee valid for the chosen period"
 msgstr ""
+"Definuje pravidlá, ktoré musia byť použitá na túto výplatnú pásku, podľa "
+"typu zvolenej zmluvy. Ak necháte prázdne pole kontrakt, toto pole už nie je "
+"povinné a teda pravidlá uplatňované budú všetky pravidlá stanovené na "
+"štruktúru všetkých zmlúv zamestnancov platnými pre zvolené obdobie"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_note
@@ -479,17 +465,17 @@ msgstr "Popis"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Details By Salary Rule Category"
-msgstr ""
+msgstr "Podrobnosti kategórie platové pravidlá"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_details_by_salary_rule_category
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Details by Salary Rule Category"
-msgstr ""
+msgstr "Details by Salary Rule Category "
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_display_name
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_display_name
+#: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_config_settings_display_name
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_display_name
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_display_name
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees_display_name
@@ -502,6 +488,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_display_name
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register_display_name
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_contributionregister_display_name
+#: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslip_display_name
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslipdetails_display_name
 msgid "Display Name"
 msgstr "Zobraziť meno"
@@ -511,34 +498,34 @@ msgstr "Zobraziť meno"
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Done"
-msgstr ""
+msgstr "Dokončiť"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Done Payslip Batches"
-msgstr ""
+msgstr "Urobené várky výplatných pások"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Done Slip"
-msgstr ""
+msgstr "Urobená páska"
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0 selection:hr.payslip.run,state:0
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Draft"
-msgstr ""
+msgstr "Návrh"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Draft Payslip Batches"
-msgstr ""
+msgstr "Koncepty vások výplatných pások"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Draft Slip"
-msgstr ""
+msgstr "Koncept pásky"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_employee
@@ -546,29 +533,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_employee_id
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Employee"
-msgstr ""
+msgstr "Zamestnanec"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_contract
+#, fuzzy
 msgid "Employee Contract"
-msgstr ""
+msgstr "Funkcia zamestnanca"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_employee_grade_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_structure_list_view
 msgid "Employee Function"
-msgstr ""
+msgstr "Funkcia zamestnanca"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payslip_form
 #: model:ir.ui.menu,name:hr_payroll.menu_department_tree
 msgid "Employee Payslips"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model,name:hr_payroll.model_hr_contract_advantage_template
-msgid "Employee's Advantage on Contract"
-msgstr ""
+msgstr "Výplatné pásky zamestnanca"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees_employee_ids
@@ -576,19 +559,18 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Employees"
-msgstr ""
+msgstr "Zamestnanci"
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_salary_rule.py:36
-#, python-format
+#: constraint:hr.payroll.structure:0
 msgid "Error ! You cannot create a recursive Salary Structure."
-msgstr ""
+msgstr "Chyba! Nemôžete vytvoriť rekurzívnu štruktúru výplat."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_register_id
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_register_id
 msgid "Eventual third party involved in the salary payment of the employees."
-msgstr ""
+msgstr "Prípadná tretia strana podieľajúca sa na výplatach zamestnancov."
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,amount_select:0
@@ -596,45 +578,34 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_amount_fix
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_amount_fix
 msgid "Fixed Amount"
-msgstr ""
+msgstr "Pevná suma"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_amount_percentage
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_amount_percentage
 msgid "For example, enter 50.0 to apply a percentage of 50%"
-msgstr ""
-
-#. module: hr_payroll
-#: code:addons/hr_payroll/report/report_contribution_register.py:34
-#, python-format
-msgid "Form content is missing, this report cannot be printed."
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings_module_l10n_fr_hr_payroll
-msgid "French Payroll"
-msgstr ""
+msgstr "Napríklad, zadajte 50.0 na aplikovanie percent  50%"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "General"
-msgstr ""
+msgstr "Všeobecný"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_by_employees
 msgid "Generate"
-msgstr ""
+msgstr "Všeobecné"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_payslip_by_employees
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 msgid "Generate Payslips"
-msgstr ""
+msgstr "Vygenerovať výplatné pásky"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_employees
 msgid "Generate payslips for all selected employees"
-msgstr ""
+msgstr "Generovať výplatné pásky pre vybraných zamestnancov"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
@@ -644,8 +615,8 @@ msgid "Group By"
 msgstr "Zoskupiť podľa"
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_id
+#: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_config_settings_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_id
@@ -658,6 +629,7 @@ msgstr "Zoskupiť podľa"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_id
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register_id
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_contributionregister_id
+#: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslip_id
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslipdetails_id
 msgid "ID"
 msgstr "ID"
@@ -668,6 +640,8 @@ msgid ""
 "If its checked, indicates that all payslips generated from here are refund "
 "payslips."
 msgstr ""
+"Ak je zaškrtnuté, znamená to, že všetky výplatné pásky vygenerované tu sú "
+"refundované výplatné pásky."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_active
@@ -676,59 +650,62 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the salary "
 "rule without removing it."
 msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings_module_l10n_in_hr_payroll
-msgid "Indian Payroll"
-msgstr ""
+"Ak je aktívne pole nastavené na pravda, umožní vám schovať platové pravidlo "
+"bez jeho odstránenia."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_credit_note
 msgid "Indicates this payslip has a refund of another"
-msgstr ""
+msgstr "Naznačuje že táto výplatná páska obsahuje refundáciu inej"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Input Data"
-msgstr ""
+msgstr "Vstupné dáta"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_input_ids
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_input_ids
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
 msgid "Inputs"
-msgstr ""
+msgstr "Vstupy"
+
+#. module: hr_payroll
+#: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_configuration
+msgid "Install your country's payroll"
+msgstr "Nainštalujte mzdárstvo pre vašu krajinu"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_note
 msgid "Internal Note"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_view_kanban
-msgid "Is a Blocking Reason?"
-msgstr ""
+msgstr "Interná poznámka"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_quantity
 msgid ""
-"It is used in computation for percentage and fixed amount. For e.g. A rule "
+"It is used in computation for percentage and fixed amount.For e.g. A rule "
 "for Meal Voucher having fixed amount of 1€ per worked day can have its "
 "quantity defined in expression like worked_days.WORK100.number_of_days."
 msgstr ""
+"To je použité vo výpočte pre percentá a pevné sumy. Napr. pravidlo na "
+"stravné lístky pre pevnú sumu vo výške 1 € za odpracovaný deň môže mať svoje "
+"množstvo vo výraze ako worked_days.WORK100.number_of_days."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_amount
 msgid ""
-"It is used in computation. For e.g. A rule for sales having 1% commission of"
-" basic salary for per product can defined in expression like result = "
-"inputs.SALEURO.amount * contract.wage*0.01."
+"It is used in computation. For e.g. A rule for sales having 1% commission of "
+"basic salary for per product can defined in expression like result = inputs."
+"SALEURO.amount * contract.wage*0.01."
 msgstr ""
+"To sa používa na počítanie. Pre napr. pravidlo pre predaj s 1% províziu "
+"základného platu za jeden výrobok môže definovať vo výraze ako výsledok = "
+"inputs.SALEURO.amount * contract.wage*0.01."
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template___last_update
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register___last_update
+#: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_config_settings___last_update
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure___last_update
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip___last_update
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees___last_update
@@ -741,13 +718,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category___last_update
 #: model:ir.model.fields,field_description:hr_payroll.field_payslip_lines_contribution_register___last_update
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_contributionregister___last_update
+#: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslip___last_update
 #: model:ir.model.fields,field_description:hr_payroll.field_report_hr_payroll_report_payslipdetails___last_update
 msgid "Last Modified on"
 msgstr "Posledná modifikácia"
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_write_uid
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_write_uid
+#: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_config_settings_write_uid
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_write_uid
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees_write_uid
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input_write_uid
@@ -763,8 +741,8 @@ msgid "Last Updated by"
 msgstr "Naposledy upravoval"
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_write_date
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_write_date
+#: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_config_settings_write_date
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_write_date
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_employees_write_date
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input_write_date
@@ -780,56 +758,47 @@ msgid "Last Updated on"
 msgstr "Naposledy upravované"
 
 #. module: hr_payroll
+#: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_config_settings_module_hr_payroll_account
+msgid "Link your payroll to accounting system"
+msgstr "Prepojte vaše mzdárstvo s účtovným systémom"
+
+#. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_category_parent_id
 msgid ""
 "Linking a salary category to its parent is used only for the reporting "
 "purpose."
 msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_lower_bound
-msgid "Lower Bound"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model.fields,help:hr_payroll.field_hr_contract_advantage_template_lower_bound
-msgid "Lower bound authorized by the employer for this advantage"
-msgstr ""
+"Prepojenie platových kategórii na svojich nadriadených sa používa len na "
+"účely podávania výkazov."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_paid
 msgid "Made Payment Order ? "
-msgstr ""
-
-#. module: hr_payroll
-#: model:res.groups,name:hr_payroll.group_hr_payroll_manager
-msgid "Manager"
-msgstr ""
+msgstr "Made Payment Order ?  "
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_condition_range_max
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_condition_range_max
 msgid "Maximum Range"
-msgstr ""
+msgstr "Maximálny rozsah"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_condition_range_min
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_condition_range_min
 msgid "Minimum Range"
-msgstr ""
+msgstr "Minimálny rozsah"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Všeobecný"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Monthly"
-msgstr ""
+msgstr "Mesačne"
 
 #. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_name
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_name
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_name
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_name
@@ -840,50 +809,45 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Name"
-msgstr ""
+msgstr "Meno"
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_payslip.py:197
+#: code:addons/hr_payroll/hr_payroll.py:395
 #, python-format
 msgid "Normal Working Days paid at 100%"
-msgstr ""
+msgstr "Normálne pracovné dni zaplatené na 100%"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_form
 msgid "Notes"
-msgstr ""
+msgstr "Poznámky"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days_number_of_days
 msgid "Number of Days"
-msgstr ""
+msgstr "Počet dní"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days_number_of_hours
 msgid "Number of Hours"
-msgstr ""
-
-#. module: hr_payroll
-#: model:res.groups,name:hr_payroll.group_hr_payroll_user
-msgid "Officer"
-msgstr ""
+msgstr "Počet hodín"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Other Inputs"
-msgstr ""
+msgstr "Iné vstupy"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_parent_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category_parent_id
 msgid "Parent"
-msgstr ""
+msgstr "Rodič"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_parent_rule_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_parent_rule_id
 msgid "Parent Salary Rule"
-msgstr ""
+msgstr "Nadradené platové pravidlo"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_partner_id
@@ -898,111 +862,95 @@ msgstr "Partner"
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Pay Slip"
-msgstr ""
+msgstr "Pay Slip "
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "PaySlip Batch"
-msgstr ""
+msgstr "Várka výplatných pások"
 
 #. module: hr_payroll
-#: model:ir.actions.report,name:hr_payroll.payslip_details_report
+#: model:ir.actions.report.xml,name:hr_payroll.payslip_details_report
 msgid "PaySlip Details"
-msgstr ""
+msgstr "PaySlip Details "
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_payslip_lines_contribution_register
 msgid "PaySlip Lines"
-msgstr ""
+msgstr "Riadky výplatných pások"
 
 #. module: hr_payroll
-#: model:ir.actions.report,name:hr_payroll.action_contribution_register
+#: model:ir.actions.report.xml,name:hr_payroll.action_contribution_register
 msgid "PaySlip Lines By Conribution Register"
-msgstr ""
+msgstr "Riadky výplatných pások podľa príspevkového registra"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "PaySlip Lines by Contribution Register"
-msgstr ""
+msgstr "Riadky výplatných pások podľa príspevkového registra"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_payslip_lines_contribution_register
 msgid "PaySlip Lines by Contribution Registers"
-msgstr ""
+msgstr "Riadky výplatných pások podľa príspevkových registrov"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "PaySlip Name"
-msgstr ""
+msgstr "Názov výplatnej pásky"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.open_payroll_modules
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_root
-#: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
+#: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_configuration
 msgid "Payroll"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
-msgid "Payroll Entries"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
-msgid "Payroll Rules"
-msgstr ""
+msgstr "Výplatná listina"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_structure_filter
 msgid "Payroll Structures"
-msgstr ""
+msgstr "Štruktúry výplatnej pásky"
 
 #. module: hr_payroll
-#: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
-msgid "Payroll rules that apply to your country"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.actions.report,name:hr_payroll.action_report_payslip
+#: model:ir.actions.report.xml,name:hr_payroll.action_report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Payslip"
-msgstr ""
+msgstr "Výplatná páska"
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_payslip.py:84
-#, python-format
+#: constraint:hr.payslip:0
 msgid "Payslip 'Date From' must be before 'Date To'."
-msgstr ""
+msgstr "'Dátum od' výplatnej pásky musí byť pred 'Dátum do'."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_payslip_run_id
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Payslip Batches"
-msgstr ""
+msgstr " Payslip Batches"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.act_payslip_lines
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_payslip_count
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Payslip Computation Details"
-msgstr ""
+msgstr "Výpočtové detaily výplatnej pásky"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_input
 msgid "Payslip Input"
-msgstr ""
+msgstr "Vstup výplatnej pásky"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input_line_ids
 msgid "Payslip Inputs"
-msgstr ""
+msgstr "Vstupy výplatnej pásky"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_line
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_form
 msgid "Payslip Line"
-msgstr ""
+msgstr "Payslip Line "
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.act_contribution_reg_payslip_lines
@@ -1010,28 +958,29 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Payslip Lines"
-msgstr ""
+msgstr "Riadky výplatnej pásky"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Payslip Lines by Contribution Register"
-msgstr ""
+msgstr "Riadky výplatnej pásky podľa príspevkového registra"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_name
 msgid "Payslip Name"
-msgstr ""
+msgstr "Názov výplatnej pásky"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_run
+#, fuzzy
 msgid "Payslip Run"
-msgstr ""
+msgstr "Payslip Line "
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_worked_days
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days_line_ids
 msgid "Payslip Worked Days"
-msgstr ""
+msgstr "Odpracovné dni výplatnej pásky"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.act_hr_employee_payslip_list
@@ -1043,7 +992,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_tree
 msgid "Payslips"
-msgstr ""
+msgstr "Payslips "
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_payslip_run_tree
@@ -1051,12 +1000,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_tree
 msgid "Payslips Batches"
-msgstr ""
+msgstr "Várky výplatných pások"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_by_employees
 msgid "Payslips by Employees"
-msgstr ""
+msgstr "Výplatné pásky podľa zamestnancov"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,amount_select:0
@@ -1064,24 +1013,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_amount_percentage
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_amount_percentage
 msgid "Percentage (%)"
-msgstr ""
+msgstr "Percentá (%)"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_amount_percentage_base
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_amount_percentage_base
 msgid "Percentage based on"
-msgstr ""
+msgstr "Percentá založené na"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Period"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
-msgid "Post payroll slips in accounting"
-msgstr ""
+msgstr "Obdobie"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_payslip_lines_contribution_register
@@ -1094,19 +1038,19 @@ msgstr "Tlač"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_amount_python_compute
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_amount_python_compute
 msgid "Python Code"
-msgstr ""
+msgstr "Kód Pyton"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_condition_python
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_condition_python
 msgid "Python Condition"
-msgstr ""
+msgstr "Python podmienka"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,condition_select:0
 #: selection:hr.salary.rule,condition_select:0
 msgid "Python Expression"
-msgstr ""
+msgstr "Python výraz"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_quantity
@@ -1117,77 +1061,83 @@ msgstr "Množstvo"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_contributionregister
 msgid "Quantity/Rate"
-msgstr ""
+msgstr "Množtsvo / Stupeň"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslip
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 msgid "Quantity/rate"
-msgstr ""
+msgstr "Množtsvo / stupeň"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Quarterly"
-msgstr ""
+msgstr "Štvrťročne"
 
 #. module: hr_payroll
 #: selection:hr.payslip.line,condition_select:0
 #: selection:hr.salary.rule,condition_select:0
 msgid "Range"
-msgstr ""
+msgstr "Rozsah"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_condition_range
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_condition_range
 msgid "Range Based on"
-msgstr ""
+msgstr "Rozsah založený na"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_rate
 msgid "Rate (%)"
-msgstr ""
+msgstr "Stupeň (%)"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure_code
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_number
 msgid "Reference"
-msgstr ""
+msgstr "Odkaz"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Refund"
-msgstr ""
+msgstr "Refundácia"
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_payslip.py:104
+#: code:addons/hr_payroll/hr_payroll.py:315
+#, python-format
+msgid "Refund Payslip"
+msgstr "Refundovať výplatnú pásku"
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/hr_payroll.py:306
 #, python-format
 msgid "Refund: "
-msgstr ""
+msgstr "Refundácia:"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contribution_register_register_line_ids
 msgid "Register Line"
-msgstr ""
+msgstr "Riadok registra"
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0
 msgid "Rejected"
-msgstr ""
+msgstr "Rejected "
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_salary_rule_id
 msgid "Rule"
-msgstr ""
+msgstr "Pravidlo"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_form
 msgid "Salary Categories"
-msgstr ""
+msgstr "Platové kategórie"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Salary Computation"
-msgstr ""
+msgstr "Výpočet platu"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_salary_rule_category
@@ -1196,26 +1146,26 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_category_tree_view
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_salary_rule_category_filter
 msgid "Salary Rule Categories"
-msgstr ""
+msgstr "Kategórie platových pravidiel"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_salary_rule_category_tree_view
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_salary_rule_category_tree_view
 msgid "Salary Rule Categories Hierarchy"
-msgstr ""
+msgstr "Hierarchia kategórií platových pravidiel"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_rule_category
 #: model:ir.ui.view,arch_db:hr_payroll.report_payslipdetails
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Salary Rule Category"
-msgstr ""
+msgstr "Salary Rule Category "
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_rule_input
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_rule_input_input_id
 msgid "Salary Rule Input"
-msgstr ""
+msgstr "Vstup platových pravidiel"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_salary_rule_form
@@ -1227,14 +1177,14 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_employee_grade_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Salary Rules"
-msgstr ""
+msgstr "Platové pravidlá"
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_payslip.py:396
-#: code:addons/hr_payroll/models/hr_payslip.py:446
+#: code:addons/hr_payroll/hr_payroll.py:640
+#: code:addons/hr_payroll/hr_payroll.py:699
 #, python-format
 msgid "Salary Slip of %s for %s"
-msgstr ""
+msgstr "Výplatná páska s %s pre %s"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payroll_structure
@@ -1243,43 +1193,49 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_tree
 msgid "Salary Structure"
-msgstr ""
+msgstr "Platová štruktúra"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_list_form
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_structure_view
 msgid "Salary Structures"
-msgstr ""
+msgstr "Platové štruktúry"
+
+#. module: hr_payroll
+#: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_tree
+#: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_structure_tree
+msgid "Salary Structures Hierarchy"
+msgstr "Hierarchia platovej štruktúry"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_schedule_pay
 msgid "Scheduled Pay"
-msgstr ""
+msgstr "Naplánovaná platba"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_filter
 msgid "Search Payslip Batches"
-msgstr ""
+msgstr "Hľadať várky výplatných pások"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 msgid "Search Payslip Lines"
-msgstr ""
+msgstr "Hľadať riadky výplatnej pásky"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "Search Payslips"
-msgstr ""
+msgstr "Hľadať výplatné pásky"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Search Salary Rule"
-msgstr ""
+msgstr "Hľadať platové pravidlo"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Semi-annually"
-msgstr ""
+msgstr "Dvakrát ročne"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input_sequence
@@ -1293,18 +1249,18 @@ msgstr "Postupnosť"
 #: model:ir.ui.view,arch_db:hr_payroll.hr_payslip_run_form
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Set to Draft"
-msgstr ""
+msgstr "Nastaviť ako návr"
 
 #. module: hr_payroll
-#: model:ir.actions.act_window,name:hr_payroll.action_hr_payroll_configuration
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_global_settings
+#: model:ir.ui.view,arch_db:hr_payroll.view_hr_payroll_configuration
 msgid "Settings"
-msgstr ""
+msgstr "Konfigurácia"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "States"
-msgstr ""
+msgstr "Stav"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_run_state
@@ -1315,7 +1271,7 @@ msgstr "Stav"
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_struct_id
 msgid "Structure"
-msgstr ""
+msgstr "Structure "
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_code
@@ -1324,53 +1280,61 @@ msgid ""
 "The code of salary rules can be used as reference in computation of other "
 "rules. In that case, it is case sensitive."
 msgstr ""
+"Kód pravidiel platu môže byť použitý ako referencia pri výpočte iných "
+"pravidiel. V takom prípade rozlišuje veľké a malé písmená."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_code
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_worked_days_code
 #: model:ir.model.fields,help:hr_payroll.field_hr_rule_input_code
 msgid "The code that can be used in the salary rules"
-msgstr ""
+msgstr "Kód ktorý môže byť použitý v pravidlách platu"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_amount_select
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_amount_select
 msgid "The computation method for the rule amount."
-msgstr ""
+msgstr "Výpočtová metóda pre pravidlo množstva."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_input_contract_id
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_worked_days_contract_id
 msgid "The contract for which applied this input"
-msgstr ""
+msgstr "Kontrakt pre ktorý sa uplatnil tento vstp"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_condition_range_max
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_condition_range_max
 msgid "The maximum amount, applied for this rule."
-msgstr ""
+msgstr "Maximálne množstvo, uplatnené pre toto pravidlo."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_condition_range_min
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_condition_range_min
 msgid "The minimum amount, applied for this rule."
-msgstr ""
+msgstr "Minimálne množstvo, uplatnené pre toto pravidlo."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_condition_range
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_condition_range
 msgid ""
-"This will be used to compute the % fields values; in general it is on basic,"
-" but you can also use categories code fields in lowercase as a variable "
-"names (hra, ma, lta, etc.) and the variable basic."
+"This will be used to compute the % fields values; in general it is on basic, "
+"but you can also use categories code fields in lowercase as a variable names "
+"(hra, ma, lta, etc.) and the variable basic."
 msgstr ""
+"Toto bude použité na výpočet % polí; všeobecne je na základe, ale môžete "
+"tiež použiť polia kódov kategórií v malých písmenách ako názvy variabilných "
+"(hra, ma, lta, atď.) a variabilný základ."
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_by_employees
 msgid ""
-"This wizard will generate payslips for all selected employee(s) based on the"
-" dates and credit note specified on Payslips Run."
+"This wizard will generate payslips for all selected employee(s) based on the "
+"dates and credit note specified on Payslips Run."
 msgstr ""
+"Tento sprievodca vygeneruje výplatné pásky pre všetkých vybraných "
+"zamestnanca(ov) na základe dátumov a kreditnej poznámky pri priebehu "
+"výplatných pások. "
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line_total
@@ -1383,125 +1347,121 @@ msgstr "Celkom"
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Total Working Days"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_advantage_template_upper_bound
-msgid "Upper Bound"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model.fields,help:hr_payroll.field_hr_contract_advantage_template_upper_bound
-msgid "Upper bound authorized by the employer for this advantage"
-msgstr ""
+msgstr "Pracovné dni celkovo"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_sequence
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_sequence
 msgid "Use to arrange calculation sequence"
-msgstr ""
+msgstr "Použit pre usporiadanie výpočtovej sekvencie"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_appears_on_payslip
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_appears_on_payslip
 msgid "Used to display the salary rule on payslip."
-msgstr ""
+msgstr "Používané na zobrazenie platových pravidiel na výplatnej páske."
 
 #. module: hr_payroll
 #: selection:hr.payslip,state:0
 msgid "Waiting"
-msgstr ""
+msgstr "Čaká"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Weekly"
-msgstr ""
+msgstr "Týždenne"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Worked Day"
-msgstr ""
+msgstr "Odpracovaný deň"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Worked Days"
-msgstr ""
+msgstr "Odpracované dni"
 
 #. module: hr_payroll
 #: model:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Worked Days & Inputs"
-msgstr ""
+msgstr "Odpracované dni & Vstupy"
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_salary_rule.py:198
+#: code:addons/hr_payroll/hr_payroll.py:884
 #, python-format
 msgid "Wrong percentage base or quantity defined for salary rule %s (%s)."
 msgstr ""
+"Chybná báza percenta alebo množstvo definované pre platové pravidlo %s (%s)."
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_salary_rule.py:204
+#: code:addons/hr_payroll/hr_payroll.py:890
 #, python-format
 msgid "Wrong python code defined for salary rule %s (%s)."
-msgstr ""
+msgstr "Chybný Python kód definovaný pre platové pravidlo %s (%s)."
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_salary_rule.py:227
+#: code:addons/hr_payroll/hr_payroll.py:913
 #, python-format
 msgid "Wrong python condition defined for salary rule %s (%s)."
-msgstr ""
+msgstr "Chybná Python podmienka definovaná pre platové pravidlo %s (%s)."
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_salary_rule.py:191
+#: code:addons/hr_payroll/hr_payroll.py:877
 #, python-format
 msgid "Wrong quantity defined for salary rule %s (%s)."
-msgstr ""
+msgstr "Chybné množstvo definované pre platové pravidlo %s (%s)."
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_salary_rule.py:221
+#: code:addons/hr_payroll/hr_payroll.py:907
 #, python-format
 msgid "Wrong range condition defined for salary rule %s (%s)."
-msgstr ""
+msgstr "Chybná rozsahová podmienka definovaná pre platové pravidlo %s (%s)."
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_payslip.py:128
+#: code:addons/hr_payroll/hr_payroll.py:333
 #, python-format
 msgid "You cannot delete a payslip which is not draft or cancelled!"
-msgstr ""
+msgstr "Nemžete zmazať výplatnú pásku ktorá nie je koncept alebo je zmazaná!"
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/wizard/hr_payroll_payslips_by_employees.py:24
+#: code:addons/hr_payroll/wizard/hr_payroll_payslips_by_employees.py:35
 #, python-format
 msgid "You must select employee(s) to generate payslip(s)."
-msgstr ""
+msgstr "Musíte vybrať zamestnanca(ov) pre generovanie výplatnej pásky (pások)."
 
 #. module: hr_payroll
-#: code:addons/hr_payroll/models/hr_payslip.py:517
-#, python-format
+#: code:addons/hr_payroll/hr_payroll.py:964
+#, fuzzy, python-format
 msgid "You must set a contract to create a payslip line."
-msgstr ""
+msgstr "Musíte vybrať zamestnanca(ov) pre generovanie výplatnej pásky (pások)."
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_hr_payroll_config_settings
+msgid "hr.payroll.config.settings"
+msgstr "hr.payroll.config.settings"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_rule
 msgid "hr.salary.rule"
-msgstr ""
+msgstr "hr.salary.rule"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_report_hr_payroll_report_contributionregister
 msgid "report.hr_payroll.report_contributionregister"
-msgstr ""
+msgstr "report.hr_payroll.report_contributionregister"
+
+#. module: hr_payroll
+#: model:ir.model,name:hr_payroll.model_report_hr_payroll_report_payslip
+msgid "report.hr_payroll.report_payslip"
+msgstr "report.hr_payroll.report_payslip"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_report_hr_payroll_report_payslipdetails
 msgid "report.hr_payroll.report_payslipdetails"
-msgstr ""
-
-#. module: hr_payroll
-#: model:ir.model,name:hr_payroll.model_res_config_settings
-msgid "res.config.settings"
-msgstr ""
+msgstr "report.hr_payroll.report_payslipdetails"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip_line_amount_percentage_base
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_rule_amount_percentage_base
 msgid "result will be affected to a variable"
-msgstr ""
+msgstr "výsledok bude ovplyvnený do premennej"

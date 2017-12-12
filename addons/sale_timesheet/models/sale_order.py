@@ -6,7 +6,6 @@ from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
 from odoo.osv import expression
 from odoo.tools.safe_eval import safe_eval
-from odoo.tools import float_is_zero
 
 
 class SaleOrder(models.Model):
@@ -156,9 +155,7 @@ class SaleOrderLine(models.Model):
     @api.model
     def create(self, values):
         line = super(SaleOrderLine, self).create(values)
-        precision = self.env['decimal.precision'].precision_get('Product Unit of Measure')
-        # check ordered quantity to avoid create project/task when expensing service products
-        if line.state == 'sale' and not float_is_zero(line.product_uom_qty, precision_digits=precision):
+        if line.state == 'sale':
             line._timesheet_service_generation()
         return line
 
@@ -202,12 +199,12 @@ class SaleOrderLine(models.Model):
                 account = self.order_id.analytic_account_id
             project = Project.search([('analytic_account_id', '=', account.id)], limit=1)
             if not project:
-                project_name = '%s (%s)' % (account.name, self.order_partner_id.ref) if self.order_partner_id.ref else account.name
-                project = Project.create({
+                project_name = '%s (%s)' % (account.name, self.sale_line_id.order_partner_id.ref) if self.sale_line_id.order_partner_id.ref else account.name
+                project_id = account.sudo().project_create({
                     'name': project_name,
                     'allow_timesheets': self.product_id.service_type == 'timesheet',
-                    'analytic_account_id': account.id,
                 })
+                project = Project.sudo().browse(project_id)
                 # set the SO line origin if product should create project
                 if not project.sale_line_id and self.product_id.service_tracking in ['task_new_project', 'project_only']:
                     project.write({'sale_line_id': self.id})

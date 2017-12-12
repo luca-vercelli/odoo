@@ -56,17 +56,17 @@ msgstr "Zaposleni"
 #. module: hr_maintenance
 #: model:ir.model,name:hr_maintenance.model_maintenance_equipment
 msgid "Equipment"
-msgstr "Oprema"
+msgstr ""
 
 #. module: hr_maintenance
 #: model:ir.model,name:hr_maintenance.model_maintenance_request
 msgid "Maintenance Requests"
-msgstr "Zahtjevi za održavanje"
+msgstr ""
 
 #. module: hr_maintenance
 #: model:ir.ui.view,arch_db:hr_maintenance.maintenance_request_view_search_inherit_hr
 msgid "My Requests"
-msgstr "Moji zahtjevi"
+msgstr ""
 
 #. module: hr_maintenance
 #: selection:maintenance.equipment,equipment_assign_to:0

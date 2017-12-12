@@ -9,7 +9,7 @@ from odoo.osv import expression
 
 from odoo.addons import decimal_precision as dp
 
-from odoo.tools import float_compare, pycompat
+from odoo.tools import pycompat
 
 
 class ProductCategory(models.Model):
@@ -42,13 +42,10 @@ class ProductCategory(models.Model):
                 category.complete_name = category.name
 
     def _compute_product_count(self):
-        read_group_res = self.env['product.template'].read_group([('categ_id', 'child_of', self.ids)], ['categ_id'], ['categ_id'])
+        read_group_res = self.env['product.template'].read_group([('categ_id', 'in', self.ids)], ['categ_id'], ['categ_id'])
         group_data = dict((data['categ_id'][0], data['categ_id_count']) for data in read_group_res)
         for categ in self:
-            product_count = 0
-            for sub_categ_id in categ.search([('id', 'child_of', categ.id)]).ids:
-                product_count += group_data.get(sub_categ_id, 0)
-            categ.product_count = product_count
+            categ.product_count = group_data.get(categ.id, 0)
 
     @api.constrains('parent_id')
     def _check_category_recursion(self):
@@ -468,9 +465,7 @@ class ProductProduct(models.Model):
     def _select_seller(self, partner_id=False, quantity=0.0, date=None, uom_id=False):
         self.ensure_one()
         if date is None:
-            date = fields.Date.context_today(self)
-        precision = self.env['decimal.precision'].precision_get('Product Unit of Measure')
-
+            date = fields.Date.today()
         res = self.env['product.supplierinfo']
         for seller in self.seller_ids:
             # Set quantity in UoM of seller
@@ -484,7 +479,7 @@ class ProductProduct(models.Model):
                 continue
             if partner_id and seller.name not in [partner_id, partner_id.parent_id]:
                 continue
-            if float_compare(quantity_uom_seller, seller.min_qty, precision_digits=precision) == -1:
+            if quantity_uom_seller < seller.min_qty:
                 continue
             if seller.product_id and seller.product_id != self:
                 continue
